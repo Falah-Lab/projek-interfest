@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    width: 1024px;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+}
+
+nav{
+    background-color: #432E54;
+    color: azure;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav > .wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+}
+
+.Menu{
+    width: 50%;
+}
+
+.Menu > ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.Menu > ul > li > a{
+    text-decoration: none;
+    color: azure;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+
+}
+.Logo > img{
+    height: 60PX;
+}
+
+header{
+    background: url(image/download\ \(2\).jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    letter-spacing: 5px;
+    text-shadow: 0 0 4px #000;
+}
+
+.header-opacity{
+    background-color:#432E54 ;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-jumbotron{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-jumbotron > h4{
+    color: #4589af;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.header-jumbotron > h5{
+    color: azure;
+    margin: 0px;
+    padding: 5px;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+.header-jumbotron > p{
+    padding: 5px;
+    margin: 0px 5px 20px 5px;
+    color: azure;  
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    text-shadow: none;
+}
+
+.button{
+    background-color: #4589af;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.button-x1{
+    font-size: 1.4rem;
+    padding: 20px;
+}
+
+#Tentang{
+    background-color:#FFF7D1;
+    color: #181C14;
+}
+
+#Tentang > .wrapper{
+    padding: 50px 0px 50px 0px;
+}
+
+#Tentang > .wrapper > h4{
+    font-family: "Geist Mono", monospace;
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Tentang > .wrapper > p{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+#Tentang > .wrapper > div{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Tentang > .wrapper > div > .Foto{
+    width: 30%;
+}
+
+#Tentang > .wrapper > div > .Foto > img{
+    max-width: 100%;
+}
+
+#Tentang > .wrapper > div > .Deskripsi{
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+#Tentang > .wrapper > div > .Deskripsi > p{
+    margin: 0px 0px 10px 0px;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+}
+
+#Tentang > .wrapper > div > .Deskripsi > .sosial {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+}
+
+#Tentang > .wrapper > div > .Deskripsi > .sosial > a{
+    color: #4589af;
+}
+
+#Hobi{
+    background-color:#432E54 ;
+    color: #dddddc;
+}
+
+#Hobi > .wrapper{
+    padding: 50px 0px 50px 0px;
+}
+
+#Hobi > .wrapper > h4{
+    font-family: "Geist Mono", monospace;
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Hobi > .wrapper > p{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+#Hobi > .wrapper > div{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Hobi > .wrapper > div > .Foto{
+    width: 30%;
+}
+
+#Hobi > .wrapper > div > .Foto > img{
+    max-width: 50%;
+}
+
+#Kontak{
+    background-color:#FFF7D1;
+    color: #181C14;
+    box-shadow: -4px 4px 4px #000
+}
+
+#Kontak > .wrapper > h4{
+    font-family: "Geist Mono", monospace;
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Kontak > .wrapper > p{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+#Kontak > .wrapper > div{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Kontak > .wrapper > div > .Foto{
+    width: 30%;
+}
+
+#Kontak > .wrapper > div > .Foto > img{
+    max-width: 100%;
+}
+
+#Kontak > .wrapper > div > .Deskripsi{
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #FFF;
+    border-radius: 10px;
+    line-height: 10px;
+}
+
+#Kontak > .wrapper > div > .Deskripsi > .sosial > a{
+    color: #4589af;
+}
+
+button.humburger-menu{
+    background:none;
+    border: none;
+    cursor: pointer;
+}
+
+button.humburger-menu > i{
+    color: #FFF;
+    font-size: 1.5rem;
+}
